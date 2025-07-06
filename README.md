@@ -25,7 +25,7 @@ A beautiful, interactive web application that provides personalized content reco
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-vercel-url.vercel.app) *(Coming soon)*
+[View Live Demo](https://mood-9qlft6g7k-manak-rajs-projects-548e6340.vercel.app)
 
 ## 📁 Project Structure
 
@@ -69,7 +69,7 @@ MoodHub/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/MoodHub.git
+   git clone https://github.com/ManakRaj-7/MoodHub.git
    cd MoodHub
    ```
 
@@ -145,25 +145,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or suggestions:
 
-- 🐛 **Report a bug**: [Create an issue](https://github.com/yourusername/MoodHub/issues)
-- 💡 **Request a feature**: [Create an issue](https://github.com/yourusername/MoodHub/issues)
+- 🐛 **Report a bug**: [Create an issue](https://github.com/ManakRaj-7/MoodHub/issues)
+- 💡 **Request a feature**: [Create an issue](https://github.com/ManakRaj-7/MoodHub/issues)
 - 📧 **Contact**: your.email@example.com
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/MoodHub&type=Date)](https://star-history.com/#yourusername/MoodHub&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ManakRaj-7/MoodHub&type=Date)](https://star-history.com/#ManakRaj-7/MoodHub&Date)
 
 ## 📊 Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/MoodHub?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/MoodHub?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/MoodHub)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/MoodHub)
-![GitHub license](https://img.shields.io/github/license/yourusername/MoodHub)
+![GitHub stars](https://img.shields.io/github/stars/ManakRaj-7/MoodHub?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ManakRaj-7/MoodHub?style=social)
+![GitHub issues](https://img.shields.io/github/issues/ManakRaj-7/MoodHub)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ManakRaj-7/MoodHub)
+![GitHub license](https://img.shields.io/github/license/ManakRaj-7/MoodHub)
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ by [Your Name]</p>
+  <p>Made with ❤️ by Manak Raj</p>
   <p>If you find this project helpful, please give it a ⭐</p>
 </div>
