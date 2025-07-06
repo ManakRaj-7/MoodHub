@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodHub - Your Mood-Based Content Companion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">🌟 MoodHub</h1>
+                <p class="tagline">Your personal mood-based content companion</p>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Mood Selection Section -->
+        <section class="mood-selection">
+            <div class="container">
+                <h2>How are you feeling today?</h2>
+                <div class="mood-grid">
+                    <button class="mood-btn" data-mood="happy">
+                        <i class="fas fa-smile"></i>
+                        <span>Happy</span>
+                    </button>
+                    <button class="mood-btn" data-mood="sad">
+                        <i class="fas fa-frown"></i>
+                        <span>Sad</span>
+                    </button>
+                    <button class="mood-btn" data-mood="motivated">
+                        <i class="fas fa-fire"></i>
+                        <span>Motivated</span>
+                    </button>
+                    <button class="mood-btn" data-mood="relaxed">
+                        <i class="fas fa-leaf"></i>
+                        <span>Relaxed</span>
+                    </button>
+                    <button class="mood-btn" data-mood="anxious">
+                        <i class="fas fa-heart"></i>
+                        <span>Anxious</span>
+                    </button>
+                    <button class="mood-btn" data-mood="creative">
+                        <i class="fas fa-palette"></i>
+                        <span>Creative</span>
+                    </button>
+                    <button class="mood-btn" data-mood="nostalgic">
+                        <i class="fas fa-clock"></i>
+                        <span>Nostalgic</span>
+                    </button>
+                    <button class="mood-btn" data-mood="energetic">
+                        <i class="fas fa-bolt"></i>
+                        <span>Energetic</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Sections -->
+        <section class="content-sections">
+            <div class="container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="quotes">
+                        <i class="fas fa-quote-left"></i>
+                        Quotes
+                    </button>
+                    <button class="tab-btn" data-tab="books">
+                        <i class="fas fa-book"></i>
+                        Books
+                    </button>
+                    <button class="tab-btn" data-tab="websites">
+                        <i class="fas fa-globe"></i>
+                        Websites
+                    </button>
+                    <button class="tab-btn" data-tab="videos">
+                        <i class="fas fa-play"></i>
+                        Videos
+                    </button>
+                    <button class="tab-btn" data-tab="music">
+                        <i class="fas fa-music"></i>
+                        Music
+                    </button>
+                    <button class="tab-btn" data-tab="poems">
+                        <i class="fas fa-feather"></i>
+                        Poems
+                    </button>
+                </div>
+
+                <!-- Quotes Section -->
+                <div class="tab-content active" id="quotes">
+                    <div class="section-header">
+                        <h3>Inspiring Quotes</h3>
+                        <button class="refresh-btn" onclick="refreshQuotes()">
+                            <i class="fas fa-sync-alt"></i>
+                        </button>
+                    </div>
+                    <div class="quotes-container">
+                        <div class="quote-card">
+                            <p class="quote-text">"The only way to do great work is to love what you do."</p>
+                            <p class="quote-author">- Steve Jobs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Books Section -->
+                <div class="tab-content" id="books">
+                    <div class="section-header">
+                        <h3>Book Recommendations</h3>
+                        <button class="refresh-btn" onclick="refreshBooks()">
+                            <i class="fas fa-sync-alt"></i>
+                        </button>
+                    </div>
+                    <div class="books-container">
+                        <div class="book-card">
+                            <div class="book-info">
+                                <h4>The Power of Now</h4>
+                                <p class="book-author">by Eckhart Tolle</p>
+                                <p class="book-description">A guide to spiritual enlightenment and living in the present moment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Websites Section -->
+                <div class="tab-content" id="websites">
+                    <div class="section-header">
+                        <h3>Helpful Resources</h3>
+                        <button class="refresh-btn" onclick="refreshWebsites()">
+                            <i class="fas fa-sync-alt"></i>
+                        </button>
+                    </div>
+                    <div class="websites-container">
+                        <div class="website-card">
+                            <h4>Calm</h4>
+                            <p>Meditation and relaxation app for mindfulness</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Videos Section -->
+                <div class="tab-content" id="videos">
+                    <div class="section-header">
+                        <h3>YouTube Recommendations</h3>
+                        <button class="refresh-btn" onclick="refreshVideos()">
+                            <i class="fas fa-sync-alt"></i>
+                        </button>
+                    </div>
+                    <div class="videos-container">
+                        <div class="video-card">
+                            <h4>10 Minute Meditation</h4>
+                            <p>A peaceful guided meditation for beginners</p>
+                            <a href="https://youtube.com/watch?v=ZToicYcHIOU" target="_blank" class="video-link">Watch Video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Music Section -->
+                <div class="tab-content" id="music">
+                    <div class="section-header">
+                        <h3>Music Recommendations</h3>
+                        <button class="refresh-btn" onclick="refreshMusic()">
+                            <i class="fas fa-sync-alt"></i>
+                        </button>
+                    </div>
+                    <div class="music-container">
+                        <div class="music-card">
+                            <h4>Chill Vibes</h4>
+                            <p>Perfect for relaxation and focus</p>
+                            <div class="playlist">
+                                <div class="song">♪ Weightless - Marconi Union</div>
+                                <div class="song">♪ Clair de Lune - Debussy</div>
+                                <div class="song">♪ Gymnopédie No.1 - Erik Satie</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Poems Section -->
+                <div class="tab-content" id="poems">
+                    <div class="section-header">
+                        <h3>Beautiful Poems</h3>
+                        <button class="refresh-btn" onclick="refreshPoems()">
+                            <i class="fas fa-sync-alt"></i>
+                        </button>
+                    </div>
+                    <div class="poems-container">
+                        <div class="poem-card">
+                            <h4>The Road Not Taken</h4>
+                            <p class="poem-author">by Robert Frost</p>
+                            <div class="poem-text">
+                                <p>Two roads diverged in a yellow wood,<br>
+                                And sorry I could not travel both<br>
+                                And be one traveler, long I stood<br>
+                                And looked down one as far as I could<br>
+                                To where it bent in the undergrowth;</p>
+                            </div>
+                            <a href="https://www.poetryfoundation.org/poems/44272/the-road-not-taken" target="_blank" class="poem-link">Read Full Poem</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MoodHub. Made with ❤️ for your well-being.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
