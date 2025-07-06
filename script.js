@@ -220,36 +220,36 @@ const contentData = {
     },
     poems: {
         happy: [
-            { title: "The Guest House", author: "Rumi", excerpt: "This being human is a guest house. Every morning a new arrival. A joy, a depression, a meanness...", url: "https://www.poetryfoundation.org/poems/46652/the-guest-house" },
-            { title: "Still I Rise", author: "Maya Angelou", excerpt: "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt...", url: "https://www.poetryfoundation.org/poems/46446/still-i-rise" }
+            { title: "The Guest House", author: "Rumi", excerpt: "This being human is a guest house. Every morning a new arrival. A joy, a depression, a meanness..." },
+            { title: "Still I Rise", author: "Maya Angelou", excerpt: "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt..." }
         ],
         sad: [
-            { title: "Do Not Go Gentle Into That Good Night", author: "Dylan Thomas", excerpt: "Do not go gentle into that good night, old age should burn and rave at close of day...", url: "https://www.poetryfoundation.org/poems/44194/do-not-go-gentle-into-that-good-night" },
-            { title: "The Guest House", author: "Rumi", excerpt: "This being human is a guest house. Every morning a new arrival...", url: "https://www.poetryfoundation.org/poems/46652/the-guest-house" }
+            { title: "Do Not Go Gentle Into That Good Night", author: "Dylan Thomas", excerpt: "Do not go gentle into that good night, old age should burn and rave at close of day..." },
+            { title: "The Guest House", author: "Rumi", excerpt: "This being human is a guest house. Every morning a new arrival..." }
         ],
         motivated: [
-            { title: "If—", author: "Rudyard Kipling", excerpt: "If you can keep your head when all about you are losing theirs and blaming it on you...", url: "https://www.poetryfoundation.org/poems/46473/if---" },
-            { title: "Invictus", author: "William Ernest Henley", excerpt: "Out of the night that covers me, black as the pit from pole to pole...", url: "https://www.poetryfoundation.org/poems/51642/invictus" }
+            { title: "If—", author: "Rudyard Kipling", excerpt: "If you can keep your head when all about you are losing theirs and blaming it on you..." },
+            { title: "Invictus", author: "William Ernest Henley", excerpt: "Out of the night that covers me, black as the pit from pole to pole..." }
         ],
         relaxed: [
-            { title: "The Peace of Wild Things", author: "Wendell Berry", excerpt: "When despair for the world grows in me and I wake in the night...", url: "https://www.poetryfoundation.org/poems/50750/the-peace-of-wild-things" },
-            { title: "Mindful", author: "Mary Oliver", excerpt: "Every day I see or hear something that more or less kills me with delight...", url: "https://www.poetryfoundation.org/poems/47037/mindful" }
+            { title: "The Peace of Wild Things", author: "Wendell Berry", excerpt: "When despair for the world grows in me and I wake in the night..." },
+            { title: "Mindful", author: "Mary Oliver", excerpt: "Every day I see or hear something that more or less kills me with delight..." }
         ],
         anxious: [
-            { title: "Wild Geese", author: "Mary Oliver", excerpt: "You do not have to be good. You do not have to walk on your knees...", url: "https://www.poetryfoundation.org/poems/47037/wild-geese" },
-            { title: "The Guest House", author: "Rumi", excerpt: "This being human is a guest house. Every morning a new arrival...", url: "https://www.poetryfoundation.org/poems/46652/the-guest-house" }
+            { title: "Wild Geese", author: "Mary Oliver", excerpt: "You do not have to be good. You do not have to walk on your knees..." },
+            { title: "The Guest House", author: "Rumi", excerpt: "This being human is a guest house. Every morning a new arrival..." }
         ],
         creative: [
-            { title: "The Summer Day", author: "Mary Oliver", excerpt: "Who made the world? Who made the swan, and the black bear?...", url: "https://www.poetryfoundation.org/poems/47037/the-summer-day" },
-            { title: "A Blessing", author: "James Wright", excerpt: "Just off the highway to Rochester, Minnesota, twilight bounds softly forth...", url: "https://www.poetryfoundation.org/poems/44304/a-blessing" }
+            { title: "The Summer Day", author: "Mary Oliver", excerpt: "Who made the world? Who made the swan, and the black bear?..." },
+            { title: "A Blessing", author: "James Wright", excerpt: "Just off the highway to Rochester, Minnesota, twilight bounds softly forth..." }
         ],
         nostalgic: [
-            { title: "The Road Not Taken", author: "Robert Frost", excerpt: "Two roads diverged in a yellow wood, and sorry I could not travel both...", url: "https://www.poetryfoundation.org/poems/44272/the-road-not-taken" },
-            { title: "Those Winter Sundays", author: "Robert Hayden", excerpt: "Sundays too my father got up early and put his clothes on in the blueblack cold...", url: "https://www.poetryfoundation.org/poems/44193/those-winter-sundays" }
+            { title: "The Road Not Taken", author: "Robert Frost", excerpt: "Two roads diverged in a yellow wood, and sorry I could not travel both..." },
+            { title: "Those Winter Sundays", author: "Robert Hayden", excerpt: "Sundays too my father got up early and put his clothes on in the blueblack cold..." }
         ],
         energetic: [
-            { title: "Song of Myself", author: "Walt Whitman", excerpt: "I celebrate myself, and sing myself, and what I assume you shall assume...", url: "https://www.poetryfoundation.org/poems/44194/song-of-myself-1892-version" },
-            { title: "Phenomenal Woman", author: "Maya Angelou", excerpt: "Pretty women wonder where my secret lies. I'm not cute or built to suit a fashion model's size...", url: "https://www.poetryfoundation.org/poems/46446/phenomenal-woman" }
+            { title: "Song of Myself", author: "Walt Whitman", excerpt: "I celebrate myself, and sing myself, and what I assume you shall assume..." },
+            { title: "Phenomenal Woman", author: "Maya Angelou", excerpt: "Pretty women wonder where my secret lies. I'm not cute or built to suit a fashion model's size..." }
         ]
     }
 };
@@ -446,7 +446,6 @@ function loadPoems() {
             <div class="poem-text">
                 <p>${randomPoem.excerpt}</p>
             </div>
-            <a href="${randomPoem.url}" target="_blank" class="poem-link">Read Full Poem</a>
         </div>
     `;
 }
