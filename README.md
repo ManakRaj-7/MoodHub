@@ -25,7 +25,7 @@ A beautiful, interactive web application that provides personalized content reco
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://mood-9qlft6g7k-manak-rajs-projects-548e6340.vercel.app)
+[View Live Demo](https://mood-hub-sandy.vercel.app)
 
 ## 📁 Project Structure
 
