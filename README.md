@@ -124,7 +124,7 @@ Contributions are welcome! Here's how you can help:
 5. **Open a Pull Request**
 
 ### What to Contribute
-- New content (quotes, books, websites, etc.)
+- New content (quotes, websites, etc.)
 - UI/UX improvements
 - Bug fixes
 - Performance optimizations
