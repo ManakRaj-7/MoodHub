@@ -32,7 +32,7 @@ body {
 
 /* Header Styles */
 .navbar {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.95), rgba(118, 75, 162, 0.95), rgba(240, 147, 251, 0.95));
+    background: linear-gradient(135.1deg, rgba(102, 126, 234, 0.95), rgba(118, 75, 162, 0.95), rgba(240, 147, 251, 0.95));
     backdrop-filter: blur(20px);
     padding: 1.5rem 0;
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.1);
@@ -41,7 +41,6 @@ body {
     z-index: 1000;
     border-bottom: 3px solid rgba(255, 255, 255, 0.2);
 }
-
 .nav-container {
     display: flex;
     flex-direction: column;
